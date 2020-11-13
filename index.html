@@ -2,19 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcolo Costo Biglietto</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binario 9 e 3/4 Ticket Calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <h1>Ecco il prezzo del tuo biglietto:</h1>
-    <h2 id="ticketCost"></h2>
-
-    <script src="./assets/js/main.js"></script>
+  <div class="ticket-cost">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Ecco il prezzo del tuo biglietto per Hogwarts:</h1>
+            <h2 id="ticketCost"></h2>
+            <h3 id="reduction"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
