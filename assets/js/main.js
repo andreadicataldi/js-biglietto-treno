@@ -5,7 +5,7 @@ var userAge = Number(prompt('Quanti anni hai?'));
 var costPerKm = 0.21;
 //Tariffa base
 var standardCost = (distance * costPerKm);
-var totalCost = 0;
+var totalCost;
 // Sconto 20% per età inferiore a 18, sconto 40% per età superiore a 65
 if (userAge < 18) {
     totalCost = standardCost - (standardCost * 0.2);
@@ -15,4 +15,4 @@ if (userAge < 18) {
     totalCost = standardCost;
 }
 
-document.getElementById('ticketCost').innerHTML = totalCost + " €";
+document.getElementById('ticketCost').innerHTML = totalCost.toFixed(2) + " €";
