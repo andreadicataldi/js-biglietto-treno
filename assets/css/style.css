@@ -1,33 +1,31 @@
 body {
-    font-family: 'Libre Baskerville',
+  font-family: 'Libre Baskerville',
     serif;
-}
-
-.ticket-cost {
-    color: white;
-    text-align: center;
-    height: 100vh;
-    overflow: hidden;
     background-image: url('../img/sign.jpg');
     background-position: center;
     background-size: cover;
-    bac
+}
+
+.ticket-cost {
+  color: white;
+  text-align: center;
+
 }
 
 .overlay {
-    height: 100vh;
-     background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .col-12 {
-    padding: 100px;
+  padding: 50px;
+}
+
+h1 {
+  margin: 50px 0;
+  font-size: 4.5rem;
 }
 
 h2 {
-    margin-top: 100px;
-    transform: scale(5);
-}
-
-h3 {
-    margin-top: 100px;
+  margin-top: 50px
 }
